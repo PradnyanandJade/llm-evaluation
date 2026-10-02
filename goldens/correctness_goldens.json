@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "question": "What are the two types of LLM evaluations?",
+    "expected_output": "The two types are model evaluations and application evaluations."
+  },
+  {
+    "id": "2",
+    "question": "What is the success criterion for the email classification example?",
+    "expected_output": "The success criterion is correct classification, measured using accuracy."
+  },
+  {
+    "id": "3",
+    "question": "What is a golden dataset?",
+    "expected_output": "A golden dataset is an evaluation dataset containing inputs with manually assigned correct labels or answers."
+  },
+  {
+    "id": "4",
+    "question": "What are the three evaluation methods?",
+    "expected_output": "The three methods are automated evaluation, human evaluation, and evaluation using another LLM."
+  },
+  {
+    "id": "5",
+    "question": "Why is automated evaluation suitable for email classification?",
+    "expected_output": "Because Python can compare the predicted label with the expected label and calculate accuracy."
+  },
+  {
+    "id": "6",
+    "question": "Why are chatbot responses harder to evaluate with normal code?",
+    "expected_output": "Different answers can use different wording while having the same meaning, making semantic comparison difficult."
+  },
+  {
+    "id": "7",
+    "question": "Why should the same golden dataset be reused during iterative evaluation?",
+    "expected_output": "It allows performance changes between different system versions to be compared consistently."
+  },
+  {
+    "id": "8",
+    "question": "What should happen when a production failure is discovered?",
+    "expected_output": "The production failure should be added to the golden dataset, followed by another evaluation and improvement cycle."
+  },
+  {
+    "id": "9",
+    "question": "What evaluations can be performed on a RAG application?",
+    "expected_output": "A RAG application can be evaluated for retriever performance, the embedding model, the complete RAG workflow, and system latency."
+  },
+  {
+    "id": "10",
+    "question": "What is the iterative evaluation loop?",
+    "expected_output": "Build the dataset, run the system, evaluate the results, analyze the results, improve the system, and run the evaluation again."
+  }
+]

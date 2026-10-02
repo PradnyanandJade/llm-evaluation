@@ -1,0 +1,137 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# API keys / secrets
+*.pem
+*.key
+secrets/
+credentials/
+credentials.json
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# DeepEval
+# =========================
+
+.deepeval/
+deepeval/
+.Deepeval/
+*.deepeval
+
+# =========================
+# Evaluation Outputs
+# =========================
+
+# evaluation_runs/
+# eval_results/
+# evaluation_results/
+# reports/
+
+# Keep evaluation code and goldens
+# Ignore only generated evaluation artifacts
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Local Databases
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Chroma / Vector Store
+# =========================
+
+chroma_db/
+chroma/
+.chromadb/
+vector_store/
+storage/
+
+
+
+# =========================
+# Python Build
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Local uploaded documents
+# =========================
+
+uploads/
+uploaded_files/
+data/
+
+
+
+.langsmith/

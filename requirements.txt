@@ -1,0 +1,17 @@
+langchain 
+langchain-openai 
+langgraph 
+pydantic 
+pydantic-settings
+typing 
+fastapi
+uvicorn
+chroma
+pypdf
+langchain_chroma
+langchain_text_splitters
+langchain_community
+deepeval
+portalocker[win32] # cache issue in eval_retreiver
+sentence-transformers # for reranking
+rank_bm25

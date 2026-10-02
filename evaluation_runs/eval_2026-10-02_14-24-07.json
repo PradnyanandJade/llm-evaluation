@@ -1,0 +1,34 @@
+{
+    "component": {
+        "retriever": {
+            "Contextual Recall": 1.0,
+            "Contextual Precision": 0.9583333333333334
+        },
+        "generator": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0
+        }
+    },
+    "pipeline": {
+        "Contextual Recall": 1.0,
+        "Contextual Precision": 0.9833333333333334,
+        "Contextual Relevancy": 0.687005404725993,
+        "Faithfulness": 1.0,
+        "Answer Relevancy": 0.95
+    },
+    "application": {
+        "quality": {
+            "Correctness [GEval]": 0.9997802611153078,
+            "Completeness [GEval]": 0.9677201390197292
+        },
+        "safety": {
+            "Defensiveness [GEval]": 0.9823752777267686
+        },
+        "operations": {
+            "average_latency": 3.1666269599998484,
+            "p50": 3.2031654000002163,
+            "p95": 3.498578939998515,
+            "p99": 3.5052889079998932
+        }
+    }
+}

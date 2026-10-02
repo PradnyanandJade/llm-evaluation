@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "question": "What are the two types of LLM evaluations discussed in the lecture?",
+    "ideal_answer": "The two types are model evaluations and application evaluations."
+  },
+  {
+    "id": "2",
+    "question": "What are the steps in the LLM application evaluation workflow?",
+    "ideal_answer": "The workflow is: define the task and target, define success criteria, build a dataset, define an evaluation method, run the model or system, evaluate the results, analyze the results, improve the system, iterate, deploy, monitor production, add production failures to the dataset, and evaluate and improve again."
+  },
+  {
+    "id": "3",
+    "question": "What is a golden dataset in LLM evaluation?",
+    "ideal_answer": "A golden dataset is an evaluation dataset containing inputs and manually assigned correct answers or labels that are used to evaluate the system."
+  },
+  {
+    "id": "4",
+    "question": "What are the three evaluation methods discussed in the lecture?",
+    "ideal_answer": "The three methods are automated evaluation, human evaluation, and evaluation using another LLM."
+  },
+  {
+    "id": "5",
+    "question": "Why is automated evaluation suitable for the email classification example?",
+    "ideal_answer": "Because the system produces simple labels, code can compare the predicted labels with the expected labels and calculate accuracy automatically."
+  },
+  {
+    "id": "6",
+    "question": "Why can evaluating chatbot responses be more difficult than evaluating classification outputs?",
+    "ideal_answer": "Chatbot responses can have different wording while still having the same semantic meaning, making simple programmatic comparison difficult."
+  },
+  {
+    "id": "7",
+    "question": "Why is it important to use the same golden dataset when iteratively improving an LLM application?",
+    "ideal_answer": "Using the same golden dataset makes the evaluation repeatable and allows changes in system performance to be measured consistently."
+  },
+  {
+    "id": "8",
+    "question": "What should be done when an LLM application fails on a production example?",
+    "ideal_answer": "The production failure should be added to the golden dataset, and the evaluation and improvement process should be run again."
+  },
+  {
+    "id": "9",
+    "question": "Why is production monitoring necessary even when an LLM application performs well on a test dataset?",
+    "ideal_answer": "Because the application may encounter new types of data in production that were not present in the test dataset and may cause the system to fail."
+  },
+  {
+    "id": "10",
+    "question": "What different aspects of a RAG application can be evaluated?",
+    "ideal_answer": "A RAG application can have separate evaluations for retriever performance, the embedding model, the complete RAG workflow, and system latency."
+  }
+]
